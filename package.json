@@ -1,0 +1,31 @@
+{
+  "name": "tdc-2022-express-api-with-cluster-mode",
+  "version": "1.0.0",
+  "description": "Sample NodeJS Express REST API running on cluster mode",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "startWithProfiler": "nodemon --prof index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bovino/tdc-2022-express-api-with-cluster-mode.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "cluster"
+  ],
+  "author": "Marcelo Bezerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bovino/tdc-2022-express-api-with-cluster-mode/issues"
+  },
+  "homepage": "https://github.com/bovino/tdc-2022-express-api-with-cluster-mode#readme",
+  "dependencies": {
+    "autocannon": "^7.9.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
+  }
+}
